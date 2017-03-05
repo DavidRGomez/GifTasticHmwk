@@ -21,7 +21,7 @@ $(document).ready(function() {
 
 	$(document).on("click", ".gif", function(){
 			var gifName = $(this).data("name");
-			var urlGiffy = "http://api.giphy.com/v1/gifs/search?q=" 
+			var urlGiffy = "https://api.giphy.com/v1/gifs/search?q=" 
 			+ gifName + "&api_key=dc6zaTOxFJmzC&limit=10";
 			
 			$.ajax({
